@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="GroupName" value="param-val-not-found"/>
+  <parameter name="fulName" value="param-val-not-found"/>
+  <parameter name="CompanyName" value="param-val-not-found"/>
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="Email" value="param-val-not-found"/>
+  <parameter name="Address" value="param-val-not-found"/>
+  <parameter name="ZipCode" value="param-val-not-found"/>
+  <parameter name="Phone" value="param-val-not-found"/>
+  <parameter name="State" value="param-val-not-found"/>
+  <parameter name="Country" value="param-val-not-found"/>
+  <parameter name="City" value="param-val-not-found"/>
+  <parameter name="username" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.AddCustomerTest">
+        <methods>
+          <include name="validUserShouldBeAbleToAddCustomerFromListCustomerPageAndViewProfile" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AddCustomerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
